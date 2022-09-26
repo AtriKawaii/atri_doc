@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: AtriBot
-  text: 插件开发文档
+  name: AtriPlugin
+  text: 开发文档
   tagline: 欢迎
   image:
     src: /atri_question.jpg
@@ -14,7 +14,7 @@ hero:
       link: /primary/configure
     - theme: alt
       text: 项目地址
-      link: https://github.com/LaoLittle/atri_bot
+      link: https://github.com/AtriKawaii/atri_plugin
 
 features:
   - title: 简单
