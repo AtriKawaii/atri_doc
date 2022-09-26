@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: AtriQQ
+  name: AtriBot
   text: 插件开发文档
   tagline: 欢迎
   image:
@@ -14,7 +14,7 @@ hero:
       link: /primary/configure
     - theme: alt
       text: 项目地址
-      link: https://github.com/LaoLittle/atri_qq
+      link: https://github.com/LaoLittle/atri_bot
 
 features:
   - title: 简单
