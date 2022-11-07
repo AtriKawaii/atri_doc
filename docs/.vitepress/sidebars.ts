@@ -1,5 +1,5 @@
 export default {
-    '/using': [
+    '/guide': [
         {
             text: '开始使用',
             collapsible: true,

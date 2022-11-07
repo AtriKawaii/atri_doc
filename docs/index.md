@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 开始使用
-      link: /primary/configure
+      link: /guide/login
     - theme: alt
       text: 项目地址
       link: https://github.com/AtriKawaii/atri_plugin
