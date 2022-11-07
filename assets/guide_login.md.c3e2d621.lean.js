@@ -1,0 +1,1 @@
+import{_ as e,c as t,o,d as a}from"./app.19cbceec.js";const r="/atri_doc/assets/after_run.3b9f8902.png",f=JSON.parse('{"title":"\u767B\u5F55","description":"","frontmatter":{},"headers":[],"relativePath":"guide/login.md"}'),i={name:"guide/login.md"},s=a("",7),c=[s];function n(_,d,p,l,g,h){return o(),t("div",null,c)}const u=e(i,[["render",n]]);export{f as __pageData,u as default};
