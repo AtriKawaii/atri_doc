@@ -16,7 +16,7 @@ export default {
             items: [
                 { text: '介绍', link: '/dev/plugin/index' },
                 { text: '配置项目', link: '/dev/plugin/primary/configure' },
-                { text: '编写插件', link: '/dev/plugin/primary/run' },
+                { text: '编写插件', link: '/dev/plugin/primary/write' },
                 { text: '运行插件', link: '/dev/plugin/primary/run' }
             ]
         },
