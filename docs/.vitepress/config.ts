@@ -7,6 +7,10 @@ export default {
             {
                 text: 'Home',
                 link: '/index'
+            },
+            {
+                text: '插件开发',
+                link: '/plugin/primary/'
             }
         ],
         sidebar: [
@@ -14,8 +18,8 @@ export default {
                 text: '开始',
                 collapsible: true,
                 items: [
-                    { text: '配置你的项目', link: '/primary/configure' },
-                    { text: '运行你的插件', link: '/primary/run' }
+                    { text: '配置你的项目', link: '/plugin/primary/configure' },
+                    { text: '运行你的插件', link: '/plugin/primary/run' }
                 ]
             },
             {
