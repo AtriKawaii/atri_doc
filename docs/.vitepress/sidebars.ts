@@ -9,7 +9,7 @@ export default {
             ]
         }
     ],
-    '/plugin/': [
+    '/dev/plugin/': [
         {
             text: '开始',
             collapsible: true,

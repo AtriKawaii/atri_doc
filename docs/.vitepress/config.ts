@@ -12,7 +12,7 @@ export default {
             },
             {
                 text: '插件开发',
-                link: '/plugin/'
+                link: '/dev/plugin/'
             }
         ],
         sidebar: sidebars
