@@ -10,7 +10,7 @@ hero:
     alt: VitePress
   actions:
     - theme: brand
-      text: 开始
+      text: 开始使用
       link: /primary/configure
     - theme: alt
       text: 项目地址
