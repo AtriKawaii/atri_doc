@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: AtriPlugin
+  name: AtriBot
   text: 开发文档
   tagline: 欢迎
   image:
