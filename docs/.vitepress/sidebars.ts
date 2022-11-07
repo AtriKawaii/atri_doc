@@ -15,8 +15,9 @@ export default {
             collapsible: true,
             items: [
                 { text: '介绍', link: '/dev/plugin/index' },
-                { text: '配置你的项目', link: '/dev/plugin/primary/configure' },
-                { text: '运行你的插件', link: '/dev/plugin/primary/run' }
+                { text: '配置项目', link: '/dev/plugin/primary/configure' },
+                { text: '编写插件', link: '/dev/plugin/primary/run' },
+                { text: '运行插件', link: '/dev/plugin/primary/run' }
             ]
         },
         {
