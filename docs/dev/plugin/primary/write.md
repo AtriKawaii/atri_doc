@@ -1,7 +1,5 @@
 # 编写插件
 
----
-
 ## 定义插件结构
 首先, 定义一个结构体(struct)或枚举(enum)作为插件的结构
 ```rust
@@ -11,8 +9,6 @@ struct MyPlugin {
 }
 ```
 
----
-
 ## 为插件结构实现`Plugin`
 ```rust
 use atri_plugin::Plugin;
@@ -21,7 +17,6 @@ impl Plugin for MyPlugin {
 }
 ```
 
----
 ## 一个简单的插件示例
 ```rust
 use atri_plugin::Plugin;
