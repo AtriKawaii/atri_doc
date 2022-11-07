@@ -14,16 +14,16 @@ export default {
             text: '开始',
             collapsible: true,
             items: [
-                { text: '介绍', link: '/plugin/index' },
-                { text: '配置你的项目', link: '/plugin/primary/configure' },
-                { text: '运行你的插件', link: '/plugin/primary/run' }
+                { text: '介绍', link: '/dev/plugin/index' },
+                { text: '配置你的项目', link: '/dev/plugin/primary/configure' },
+                { text: '运行你的插件', link: '/dev/plugin/primary/run' }
             ]
         },
         {
             text: '其他',
             collapsible: true,
             items: [
-                { text: '关于插件ABI', link: '/plugin/other/abi' }
+                { text: '关于插件ABI', link: '/dev/plugin/other/abi' }
             ]
         }
     ]
