@@ -11,6 +11,7 @@ struct MyPlugin {
 
 ::: details 宏的使用
 每个插件都需要使用宏来标记, 且只能标记一个结构作为插件
+
 参数`name`为插件名称, 若没有指定插件名, 则默认插件名为`Struct_plugin`
 如上述插件不指定名称则为`MyPlugin_plugin`
 :::
