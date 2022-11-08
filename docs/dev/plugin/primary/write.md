@@ -18,6 +18,7 @@ struct MyPlugin {
 }
 ```
 参数`name`为插件名称, 若没有指定插件名, 则默认插件名为`Struct_plugin`
+
 如上述插件不指定名称则为`MyPlugin_plugin`
 :::
 
