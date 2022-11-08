@@ -3,11 +3,17 @@
 ## 定义插件结构
 首先, 定义一个结构体(struct)或枚举(enum)作为插件的结构
 ```rust
-#[atri_plugin::plugin] // 使用此宏标记其为插件
+#[atri_plugin::plugin(name = "MyAwesomePlugin")]
 struct MyPlugin {
     listener: Option<ListenerGuard>,
 }
 ```
+
+::: details 宏的使用
+每个插件都需要使用宏来标记, 且只能标记一个结构作为插件
+参数`name`为插件名称, 若没有指定插件名, 则默认插件名为`Struct_plugin`
+如上述插件不指定名称则为`MyPlugin_plugin`
+:::
 
 ## 为插件结构实现`Plugin`
 ```rust
@@ -21,7 +27,7 @@ impl Plugin for MyPlugin {
 ```rust
 use atri_plugin::Plugin;
 
-#[atri_plugin::plugin]
+#[atri_plugin::plugin(name = "MyAwesomePlugin")]
 struct MyPlugin {
     listener: Option<ListenerGuard>,
 }

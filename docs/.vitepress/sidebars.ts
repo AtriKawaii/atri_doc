@@ -4,8 +4,10 @@ export default {
             text: '开始使用',
             collapsible: true,
             items: [
+                { text: '介绍', link: '/guide/index' },
                 { text: '登录', link: '/guide/login' },
-                { text: '配置登录信息', link: '/guide/configure_login' }
+                { text: '配置登录信息', link: '/guide/configure_login' },
+                { text: '插件', link: '/guide/plugin' }
             ]
         }
     ],
