@@ -7,7 +7,7 @@
     <meta name="description" content="Atri docs">
     <link rel="stylesheet" href="/atri_doc/assets/style.77e7f33a.css">
     <link rel="modulepreload" href="/atri_doc/assets/app.8b88d45c.js">
-    <link rel="modulepreload" href="/atri_doc/assets/dev_plugin_primary_write.md.c43c7ca8.lean.js">
+    <link rel="modulepreload" href="/atri_doc/assets/dev_plugin_primary_write.md.2fbc6bf2.lean.js">
     
     <script id="check-dark-light">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
   </head>
@@ -20,7 +20,7 @@
 <span class="line"><span style="color:#C792EA;">struct</span><span style="color:#A6ACCD;"> </span><span style="color:#FFCB6B;">MyPlugin</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">{</span></span>
 <span class="line"><span style="color:#A6ACCD;">    listener</span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;"> </span><span style="color:#FFCB6B;">Option</span><span style="color:#89DDFF;">&lt;</span><span style="color:#FFCB6B;">ListenerGuard</span><span style="color:#89DDFF;">&gt;,</span></span>
 <span class="line"><span style="color:#89DDFF;">}</span></span>
-<span class="line"></span></code></pre></div><p>参数<code>name</code>为插件名称, 若没有指定插件名, 则默认插件名为<code>Struct_plugin</code> 如上述插件不指定名称则为<code>MyPlugin_plugin</code></p></details><h2 id="为插件结构实现plugin" tabindex="-1">为插件结构实现<code>Plugin</code> <a class="header-anchor" href="#为插件结构实现plugin" aria-hidden="true">#</a></h2><div class="language-rust"><button title="Copy Code" class="copy"></button><span class="lang">rust</span><pre class="shiki"><code><span class="line"><span style="color:#F78C6C;">use</span><span style="color:#FFCB6B;"> atri_plugin</span><span style="color:#89DDFF;">::</span><span style="color:#FFCB6B;">Plugin</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"></span></code></pre></div><p>参数<code>name</code>为插件名称, 若没有指定插件名, 则默认插件名为<code>Struct_plugin</code></p><p>如上述插件不指定名称则为<code>MyPlugin_plugin</code></p></details><h2 id="为插件结构实现plugin" tabindex="-1">为插件结构实现<code>Plugin</code> <a class="header-anchor" href="#为插件结构实现plugin" aria-hidden="true">#</a></h2><div class="language-rust"><button title="Copy Code" class="copy"></button><span class="lang">rust</span><pre class="shiki"><code><span class="line"><span style="color:#F78C6C;">use</span><span style="color:#FFCB6B;"> atri_plugin</span><span style="color:#89DDFF;">::</span><span style="color:#FFCB6B;">Plugin</span><span style="color:#89DDFF;">;</span></span>
 <span class="line"><span style="color:#F78C6C;">impl</span><span style="color:#A6ACCD;"> </span><span style="color:#FFCB6B;">Plugin</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">for</span><span style="color:#A6ACCD;"> </span><span style="color:#FFCB6B;">MyPlugin</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">{</span></span>
 <span class="line"><span style="color:#676E95;">    //...</span></span>
 <span class="line"><span style="color:#89DDFF;">}</span></span>
@@ -56,7 +56,7 @@
 <span class="line"><span style="color:#A6ACCD;">    </span><span style="color:#89DDFF;">}</span></span>
 <span class="line"><span style="color:#89DDFF;">}</span></span>
 <span class="line"></span></code></pre></div></div></div></main><!--[--><!--]--><footer class="VPDocFooter" data-v-cfb513e0 data-v-21f75714><!----><div class="prev-next" data-v-21f75714><div class="pager" data-v-21f75714><a class="pager-link prev" href="/atri_doc/dev/plugin/primary/configure.html" data-v-21f75714><span class="desc" data-v-21f75714>Previous page</span><span class="title" data-v-21f75714>配置项目</span></a></div><div class="has-prev pager" data-v-21f75714><a class="pager-link next" href="/atri_doc/dev/plugin/primary/run.html" data-v-21f75714><span class="desc" data-v-21f75714>Next page</span><span class="title" data-v-21f75714>运行插件</span></a></div></div></footer><!--[--><!--]--></div></div></div></div></div><!----><!--[--><!--]--></div></div>
-    <script>__VP_HASH_MAP__ = JSON.parse("{\"dev_client_intro.md\":\"ac0370a1\",\"dev_plugin_index.md\":\"61115977\",\"dev_plugin_other_abi.md\":\"13dc0cf8\",\"dev_plugin_primary_configure.md\":\"c0f03bed\",\"dev_plugin_primary_run.md\":\"caeb64a1\",\"dev_plugin_primary_write.md\":\"c43c7ca8\",\"guide_configure_login.md\":\"81fa74f5\",\"guide_index.md\":\"c6685930\",\"guide_login.md\":\"5ca1c655\",\"guide_plugin.md\":\"216d7b3e\",\"index.md\":\"b036ec7f\"}")</script>
+    <script>__VP_HASH_MAP__ = JSON.parse("{\"dev_client_intro.md\":\"ac0370a1\",\"dev_plugin_index.md\":\"61115977\",\"dev_plugin_other_abi.md\":\"13dc0cf8\",\"dev_plugin_primary_configure.md\":\"c0f03bed\",\"dev_plugin_primary_run.md\":\"caeb64a1\",\"dev_plugin_primary_write.md\":\"2fbc6bf2\",\"guide_configure_login.md\":\"81fa74f5\",\"guide_index.md\":\"c6685930\",\"guide_login.md\":\"5ca1c655\",\"guide_plugin.md\":\"216d7b3e\",\"index.md\":\"b036ec7f\"}")</script>
     <script type="module" async src="/atri_doc/assets/app.8b88d45c.js"></script>
     
   </body>
