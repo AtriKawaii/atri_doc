@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,d as l}from"./app.f21b9b8e.js";const y=JSON.parse('{"title":"\u63D2\u4EF6","description":"","frontmatter":{},"headers":[],"relativePath":"guide/plugin.md"}'),p={name:"guide/plugin.md"},e=l("",3),o=[e];function c(t,i,r,C,A,d){return a(),n("div",null,o)}const D=s(p,[["render",c]]);export{y as __pageData,D as default};
