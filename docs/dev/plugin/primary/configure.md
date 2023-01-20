@@ -6,5 +6,5 @@
 crate-type = ["cdylib"]
 
 [dependencies]
-atri_plugin = "0.2.22"
+atri_plugin = "0.8.0"
 ```
